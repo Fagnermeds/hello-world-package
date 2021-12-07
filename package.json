@@ -1,0 +1,23 @@
+{
+  "name": "@fagnermeds/hello-world-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "publishConfig": {
+    "@fagnermeds:registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fagnermeds/hello-world-package.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fagnermeds/hello-world-package/issues"
+  },
+  "homepage": "https://github.com/Fagnermeds/hello-world-package#readme"
+}
