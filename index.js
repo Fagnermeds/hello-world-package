@@ -4,6 +4,7 @@ function sum(x, y) {
 
 function log() {
   console.log('hello world!');
+  console.log('end!');
 }
 
 module.exports = {
