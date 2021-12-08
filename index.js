@@ -7,7 +7,12 @@ function log() {
   console.log('end!');
 }
 
+function mult(x, y) {
+  return x*y;
+}
+
 module.exports = {
   sum,
-  log
+  log,
+  mult
 }
