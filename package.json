@@ -1,7 +1,7 @@
 {
   "name": "@fagnermeds/hello-world-package",
   "version": "1.0.0",
-  "description": "",
+  "description": "First package",
   "main": "index.js",
   "publishConfig": {
     "@fagnermeds:registry": "https://npm.pkg.github.com"
