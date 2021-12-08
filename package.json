@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "First package",
   "main": "index.js",
-  "publishConfig": {
-    "@fagnermeds:registry": "https://npm.pkg.github.com"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
