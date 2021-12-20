@@ -1,7 +1,5 @@
-import { logPersonData } from './log/slogger';
+import { createSlogger } from './log/slogger';
 
-function sum(x: number, y: number): number {
-  return x+y;
-}
+const slogger = createSlogger();
 
-export { sum, logPersonData };
+export { slogger };
