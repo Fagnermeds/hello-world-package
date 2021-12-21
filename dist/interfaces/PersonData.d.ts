@@ -1,5 +1,5 @@
 export interface PersonData {
-    name: string;
-    age: number;
-    email: string;
+  name: string;
+  age: number;
+  email: string;
 }
