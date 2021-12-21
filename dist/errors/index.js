@@ -1,8 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.errors = void 0;
+exports.InvalidCredential = void 0;
 const InvalidCrendetial_1 = require("./InvalidCrendetial");
-const errors = {
-    InvalidCredential: InvalidCrendetial_1.InvalidCredential,
-};
-exports.errors = errors;
+Object.defineProperty(exports, "InvalidCredential", { enumerable: true, get: function () { return InvalidCrendetial_1.InvalidCredential; } });
