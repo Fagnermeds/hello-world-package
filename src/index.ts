@@ -1,7 +1,6 @@
 import { createSlogger } from './log/slogger';
+import { errors } from './errors';
 
 const slogger = createSlogger();
 
-export { slogger };
-
-export * from './errors';
+export { slogger, errors };

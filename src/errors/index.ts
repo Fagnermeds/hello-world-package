@@ -1,5 +1,9 @@
 import { InvalidCredential } from './InvalidCrendetial';
 
-export {
+const errors = {
   InvalidCredential,
+}
+
+export {
+  errors,
 }

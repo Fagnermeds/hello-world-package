@@ -1,17 +1,8 @@
 "use strict";
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
-}) : (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-}));
-var __exportStar = (this && this.__exportStar) || function(m, exports) {
-    for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.slogger = void 0;
+exports.errors = exports.slogger = void 0;
 const slogger_1 = require("./log/slogger");
+const errors_1 = require("./errors");
+Object.defineProperty(exports, "errors", { enumerable: true, get: function () { return errors_1.errors; } });
 const slogger = (0, slogger_1.createSlogger)();
 exports.slogger = slogger;
-__exportStar(require("./errors"), exports);
