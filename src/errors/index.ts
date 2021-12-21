@@ -1,4 +1,4 @@
-import { InvalidCredential } from './InvalidCrendetial';
+import InvalidCredential from './InvalidCrendetial';
 
 const errors = {
   InvalidCredential,

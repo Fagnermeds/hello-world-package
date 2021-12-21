@@ -4,4 +4,4 @@ class InvalidCredential extends Error {
   }
 }
 
-export { InvalidCredential };
+export default InvalidCredential;
