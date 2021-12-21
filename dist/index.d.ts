@@ -1,19 +1,17 @@
-interface PersonData {
-    name: string;
-    age: number;
-    email: string;
-}
-
 declare const slogger: {
-    logPersonData: (personData: PersonData) => void;
+    logPersonData: ({ name, age, email }: import("./interfaces/PersonData").PersonData) => void;
 };
+
+interface Constructable<T> {
+    new(...args: any) : T;
+}
 
 declare class InvalidCredential extends Error {
     constructor(message: string);
 }
 
 declare const errors: {
-    InvalidCrendetial: InvalidCredential, 
-}
+    InvalidCredential: Constructable<InvalidCredential>;
+} 
 
-export { slogger };
+export { slogger, errors };
