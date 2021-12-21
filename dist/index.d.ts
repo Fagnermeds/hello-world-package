@@ -1,6 +1,12 @@
-import { InvalidCredential } from './errors/InvalidCrendetial';
-export declare const slogger: {
-    logPersonData: ({ name, age, email }: import("./interfaces/PersonData").PersonData) => void;
-};
+import { errors } from './errors';
 
-export { InvalidCredential };
+interface PersonData {
+    name: string;
+    age: number;
+    email: string;
+}
+
+export declare const slogger: {
+    logPersonData: (personData: PersonData) => void;
+};
+export { errors };

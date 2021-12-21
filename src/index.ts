@@ -1,6 +1,6 @@
 import { createSlogger } from './log/slogger';
-import { InvalidCredential } from './errors/InvalidCrendetial';
+import { errors } from './errors';
 
 const slogger = createSlogger();
 
-export { slogger, InvalidCredential };
+export { slogger, errors };
